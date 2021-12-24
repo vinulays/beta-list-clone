@@ -1,0 +1,362 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+.header-nav-pop-link a{
+    text-decoration: none;
+    color:#777777;
+}
+
+header{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 30px;
+    z-index: 3;
+}
+
+
+header ul{
+    display: flex;
+}
+
+
+header ul li a{
+    text-decoration: none;
+    color: #777777;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+   
+}
+
+
+
+.header-nav-start li{
+    float: left;
+    padding: 0px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+
+}
+.header-nav-start li a:hover{
+    color: #000;
+}
+
+.header-nav-start .site-logo{
+    margin-top: -10px;
+}
+
+.button-section{
+    margin-top: -12px;
+    margin-right: 15px;
+}
+.button-section div{
+    float: left;
+}
+
+.search-box{
+    margin-top: 5px;
+    /* transform: translate(-50%,-50%); */
+    background-color: transparent;
+    font-size: 1.33em;
+    
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+
+}
+.search-btn{
+    /* color: #fff; */
+    width: 40px;
+    height: 40px;
+    /* float: right; */
+    float: left;
+    border-radius: 50%;
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -5px; */
+}
+
+.search-box input{
+    border: none;
+    text-decoration: none;
+    border-radius: 40px;
+    height: 30px;
+    text-indent: 1.5em;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #000;
+    transition: 0.4s;
+    width: 0px;
+}
+.button-section button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #777777;
+    border: 1px solid #f1f1f1;
+    background-color: transparent;
+    padding: 0px 12px;
+    border-radius: 20px;
+    margin-right: 1px;
+    cursor: pointer;
+    
+}
+.button-section button a{
+    text-decoration: none;
+    color: #777777;
+}
+.button-section button:hover{
+    border: 1px solid #000;
+}
+
+.button-section button a:hover{
+    color: #000;
+}
+
+.drop-down{
+    position: relative;
+}
+
+.drop-down-content a{
+    display: flex;
+    margin-bottom: 5px;
+    padding: 7px;
+}
+
+.drop-down-content{
+    margin-top: 20px;
+    margin-left: -45px;
+    font-size: 15px;
+    position: absolute;
+    left: 0;
+    top: calc(100% + .25rem);   
+    padding: .75 rem;
+    opacity: 0;
+    box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, .1);
+    width: 100px;
+    height: 150px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+
+
+.drop-down > .link:focus + .drop-down-content{
+    opacity: 1;
+}
+
+/* Styling the banner */
+
+.main-banner-closable{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.sign-in-btn-banner button{
+    height: 34.4px;
+    width: 145.14px;
+    background: #00CCD2;
+    color: #fff;
+    margin: 30px 0px 0px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main-banner-closable span{
+    margin-right: -1000px;
+    font-size: 20px;
+    cursor: pointer;       
+    /* margin-right: 300px; */
+}
+
+/* .main-banner-closable span{
+    height: 27.6px;
+    width: 25.99px;
+} */
+
+
+/* Styling main section of the website */
+
+.main-section-site{
+    width: 80%;
+    margin-top: 50px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trending-start-grid-and-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending-start-grid-and-flex strong{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-flex-button-layout img{
+    cursor: pointer;
+    padding: 4px;
+    background-color: #eeeeee;
+}
+.grid-flex-button-layout img:hover{
+    background-color: #777777;
+}
+
+/* Styling trending startup posts */
+
+.trending-division {
+    margin-top: 40px;
+    width: 1200px;
+    height: 387.58px;
+    display: flex;
+    margin-left: auto;
+   margin-right: 110px;
+    
+    
+}
+
+.startup-post{
+    margin-right: 50px;
+}
+.startup-post a{
+    text-decoration: none;
+    
+}
+
+
+.startup-img img{
+    width: 240px;
+    height: 180px;
+}
+.startup-img video{
+    width: 240px;
+    height: 180px;
+}
+
+.startup-heading {
+    margin-top: 20px;
+    font-size: 17.28px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.startup-para {
+    font-size: 17.28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #626b6b;
+}
+
+
+
+/* Styling love reactive button */
+
+.button-container{
+    margin-top: 30px;
+    cursor: pointer;
+    display: flex;
+}
+
+.button-container .button{
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* .love-button{
+    margin-top: 20px;
+}
+
+.love{
+    outline: none;
+}  */
+
+
+/* .love-button {
+    
+    background-color: #fefefe;
+    border-radius: 5px;
+    padding: 12.5px;
+    cursor: pointer;
+  } */
+
+
+
+/* Styling early access banner */
+
+.early-access-banner-closable{
+    color: #fff;
+    display: flex;
+    margin-top: 30px;
+    /* margin: 0 0 30px; */
+    padding: 30px;
+    background-color: #000000;
+    width: 1200px;
+    height: 109.25px;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.form-part-early-access{
+    display: flex;
+}
+
+.form-part-early-access .input-part input{
+    text-indent: 10px;
+    align-items: center;
+    padding: 8px;
+    background-color: #ECFEFF;
+    font-size: 100%;
+    border-radius: 5px;
+}
+
+
+.form-part-early-access .input-part input::placeholder{
+    color: #23acbc;
+}
+
+.form-part-early-access .early-access-button button{
+    background-color: #00ccd2;
+    border-radius: 5px;
+}
+
+.early-access-banner-closable #close{
+    margin-right: -10px;
+    margin-top: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Styling all startups section */
+
+.all-startups-main-division {
+    margin-top: 30px;
+}
+
+.all-startups-flex-section{
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

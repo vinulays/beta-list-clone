@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+.header-nav-pop-link a{
+    text-decoration: none;
+    color:#777777;
+}
+
+header{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 30px;
+    z-index: 3;
+}
+
+
+header ul{
+    display: flex;
+}
+
+
+header ul li a{
+    text-decoration: none;
+    color: #777777;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+   
+}
+
+
+
+.header-nav-start li{
+    float: left;
+    padding: 0px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+
+}
+.header-nav-start li a:hover{
+    color: #000;
+}
+
+.header-nav-start .site-logo{
+    margin-top: -10px;
+}
+
+.button-section{
+    margin-top: -12px;
+    margin-right: 15px;
+}
+.button-section div{
+    float: left;
+}
+
+.search-box{
+    margin-top: 5px;
+    /* transform: translate(-50%,-50%); */
+    background-color: transparent;
+    font-size: 1.33em;
+    
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+
+}
+.search-btn{
+    /* color: #fff; */
+    width: 40px;
+    height: 40px;
+    /* float: right; */
+    float: left;
+    border-radius: 50%;
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -5px; */
+}
+
+.search-box input{
+    border: none;
+    text-decoration: none;
+    border-radius: 40px;
+    height: 30px;
+    text-indent: 1.5em;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #000;
+    transition: 0.4s;
+    width: 0px;
+}
+.button-section button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #777777;
+    border: 1px solid #f1f1f1;
+    background-color: transparent;
+    padding: 0px 12px;
+    border-radius: 20px;
+    margin-right: 1px;
+    cursor: pointer;
+    
+}
+.button-section button a{
+    text-decoration: none;
+    color: #777777;
+}
+.button-section button:hover{
+    border: 1px solid #000;
+}
+
+.button-section button a:hover{
+    color: #000;
+}
+
+.drop-down{
+    position: relative;
+}
+
+.drop-down-content a{
+    display: flex;
+    margin-bottom: 5px;
+    padding: 7px;
+}
+
+.drop-down-content{
+    margin-top: 20px;
+    margin-left: -45px;
+    font-size: 15px;
+    position: absolute;
+    left: 0;
+    top: calc(100% + .25rem);   
+    padding: .75 rem;
+    opacity: 0;
+    box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, .1);
+    width: 100px;
+    height: 150px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    
+}
+
+
+
+.drop-down > .link:focus + .drop-down-content{
+    opacity: 1;
+}
+
+
+/* Main Styling */
+
+.news-letter-promo{
+    background-color: #00ccd2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-section{
+    margin-left: 150px;
+    
+}
+
+.logo-and-text-section{
+    margin-right: 200px;
+}
+
+.form-section input{
+    padding: 6.4px;
+    width: 272px;
+    height: 38.8px;
+    text-align: start;
+    display: inline-block;
+    
+}
+
+.form-section input::placeholder{
+    font-size: 18px;
+
+    
+}
+.form-section button{
+    /* padding: 6.4px; */
+    width: 208px;
+    height: 38.8px;
+    font-size: 16px;
+    margin-left: -4px;
+    
+   
+
+}

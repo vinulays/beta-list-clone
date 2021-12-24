@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discover and get early access to tomorrow&#39;s startups | BetaList</title>
+    <link rel="icon" href="/Assets/Logo/favicon-logo.png">
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/TextPlugin.min.js"></script>
+
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/v4-shims.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <section class="header-section">
+      <div class="header-main-division">
+        <header>
+          <div class="menu-bar">
+            <nav class="header-nav">
+              <div class="header-start-div">
+                <ul class="header-nav-start" style="list-style-type: none">
+                  <li class="header-link-logo">
+                    <div class="site-logo">
+                      <a href="index.html">
+                        <img
+                          src="Assets/Logo/favicon-logo.png"
+                          style="height: 36px"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </li>
+                  <li class="header-nav-link">
+                    <a href="index.html">FRONTPAGE</a>
+                  </li>
+                  <li class="header-nav-link">
+                    <a href="regions.html">REGIONS</a>
+                  </li>
+                  <li class="header-nav-link">
+                    <a href="markets.html">MARKETS</a>
+                  </li>
+                  <li class="header-nav-link">
+                    <a href="newsletter.html">NEWSLETTER</a>
+                  </li>
+                  <li class="header-nav-link">
+                    <a href="https://wip.co/" target="_blank">MAKER COMMUNITY</a>
+                  </li>
+                  <li class="header-nav-link">
+                    <a href="https://startup.jobs/" target="_blank">STARTUP JOBS</a>
+                  </li>
+                  <li class="header-nav-pop-link">
+                    <div class="drop-down">
+                      <a class="link" style="text-decoration: none" href="#">•••</a>
+                      <div class="drop-down-content">
+                        <a href="faq.html">FAQ</a>
+                        <a href="advertise.html">Advertise</a>
+                        <a
+                          href="https://marc.typeform.com/to/KOdlOu?typeform-source=betalist.com"
+                          >API</a
+                        >
+                        <a href="mailto: vinulapc@gmail.com">Email us</a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+    
+              <!-- <ul class="header-nav-end" style="list-style-type: none;">
+        
+            <li class="header-nav-search"></li>
+            <li class="header-nav-link">
+                <a href="#">SUBMIT STARTUP</a>
+            </li>
+            <li class="header-nav-link">
+                <a href="#">POST A JOB</a>
+            </li>
+            <li class="header-nav-link">
+                <a href="#">SIGN IN </a>
+            </li>
+            <li class="header-nav-link">
+                <a href="#">JOIN</a>
+            </li>
+        </ul> -->
+            </nav>
+          </div>
+    
+          <div class="button-section">
+            <div class="search-box">
+              <a class="search-btn" href="#">
+                <i style="color: black;" class="fas fa-search"></i>
+              </a>
+              <input
+                class="search-txt"
+                type="text"
+                name=""
+                placeholder="Type to search"
+              />
+            </div>
+            <button style="height: 38px; width: 135.85px">
+              <a href="#">SUBMIT STARTUP</a>
+            </button>
+            <button style="width: 102.55px; height: 38px; cursor: pointer">
+              <a
+                href="https://startup.jobs/users/sign_in"
+                target="_blank"
+                style="text-decoration: none"
+                >POST A JOB</a
+              >
+            </button>
+            <button style="height: 38px; width: 74.41px">
+              <a href="#">SIGN IN</a>
+            </button>
+            <button style="height: 38px; width: 56.25px">
+              <a href="#">JOIN</a>
+            </button>
+          </div>
+        </header>
+      </div>
+    </section>
+
+    <!-- Banner Section -->
+    <section>
+      <div class="main-banner-closable" style="text-align: center">
+        <!-- Element to hide the div -->
+
+        <span
+          id="close"
+          onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;"
+          >x</span
+        >
+        <div class="head-text" style="font-size: 32px; margin-bottom: 10px; font-weight: bold;">
+          <p>Discover tomorrow's startups, today.</p>
+        </div>
+        <div class="sub-text" style="font-size: 22px; line-height: 30px">
+          <p>
+            BetaList is a community of makers and early adopters <br />
+            showcasing their startups and exchanging feedback.
+          </p>
+        </div>
+        <div class="sign-in-btn-banner" style="margin-top: 5px">
+          <button>Sign in / Sign up</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main section of the website -->
+    <section>
+      <div class="main-section-site">
+        <div class="trending-start-grid-and-flex">
+          <div class="trending-word">
+            <strong>🙌 Trending Startups</strong>
+          </div>
+          <div class="grid-flex-button-layout" style="margin-top: 18px">
+            <img
+              class="grid-btn"
+              src="Assets/grid and flex toggle logo/thin-345_browse_list_grid_view-647a61b2dfbf6be5c0a242db7e3e3c25960668b0022d61e725117965262149bd.svg"
+              style="height: 20px; width: 20px"
+              alt=""
+            />
+            <img
+              src="Assets/grid and flex toggle logo/thin-343_browse_list_bullets_thumbs-1e2f9f039dd81e7031534d2cf867e0e71ad7ba9dcb16bdfb8f33079f41c63793.svg"
+              style="height: 20px; width: 20px"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Grid and list layout section -->
+    <section>
+      <!-- trending startup section -->
+      <section>
+        <div class="trending-division">
+          <div class="startup-post">
+            <a href="https://design.ideaonce.com/" target="_blank">
+            <div class="startup-img">
+              <img src="Assets/trending startup/Idea one/8309e47c0cbd92f7c4b1840b845171b4.jpeg" alt="">
+            </div>
+            </a>
+            <div class="startup-heading">
+        <p>IdeaOnce</p>
+
+            </div>
+            <div class="startup-para">
+              <p>An easy to use free online graphic designing platform</p>
+
+            </div>
+            <div class="button-container">
+              <div class="button" style="width: 45px; height: 30px; ">
+                             
+                <span class="content">
+                                 
+                                  
+                  <span class="text number" style="font-size: 20px;color: red;">5</span>
+                  <i class="icon far fa-heart" aria-hidden="true" style="color: red;font-family: 'Courier New', Courier, monospace;"></i>
+
+              </div>
+              <div class="comment-button">
+                <div class="comment-btn" style="margin-left: 10px;margin-top: 5px; " >
+                  <i class="far fa-comment-alt"></i>
+                </div>
+
+              </div>
+              <div class="profile-logo">
+
+              </div>
+            
+            </div>
+          </div>
+          <div class="startup-post">
+            <div class="startup-img">
+              <a href="https://overmindlabs.com/cube?ref=betalist" target="_blank"><video src="Assets/trending startup/Priority Cube/ac05f882b9af92c32991f905aebee399.mp4" autoplay loop muted></video></a>
+            </div>
+            <div class="startup-heading">
+              <p>Priority Cube</p>
+
+            </div>
+            <div class="startup-para">
+              <p>Auto-sort your tasks based on any priorities you want</p>
+
+            </div>
+            <div class="button-container">
+              <div class="button" style="width: 45px; height: 30px; ">
+                             
+                <span class="content">
+                                 
+                                  
+                  <span class="text number" style="font-size: 20px;color: red;">7</span>
+                  <i class="icon far fa-heart" aria-hidden="true" style="color: red;font-family: 'Courier New', Courier, monospace;"></i>
+
+              </div>
+              <div class="comment-button">
+                <div class="comment-btn" style="margin-left: 10px;margin-top: 5px; " >
+                  <i class="far fa-comment-alt"></i>
+                </div>
+
+              </div>
+              <div class="profile-logo">
+
+              </div>
+            
+            </div>
+          </div>
+          <div class="startup-post">
+            <div class="startup-img">
+              <a href="https://www.mydreamgravity.com/?ref=betalist" target="_blank"><img src="Assets/trending startup/Dream Gravity/ff441399c9a8de6c1d7b32a15aef2842.jpeg" alt=""></a>
+
+            </div>
+            <div class="startup-heading">
+              <p>DreamGravity</p>
+
+            </div>
+            <div class="startup-para">
+              <p>Digital, Gamified career planning tool</p>
+
+            </div>
+            <div class="button-container">
+              <div class="button" style="width: 45px; height: 30px; ">
+                             
+                <span class="content">
+                                 
+                                  
+                  <span class="text number" style="font-size: 20px;color: red;">3</span>
+                  <i class="icon far fa-heart" aria-hidden="true" style="color: red;font-family: 'Courier New', Courier, monospace;"></i>
+
+              </div>
+              <div class="comment-button">
+                <div class="comment-btn" style="margin-left: 10px;margin-top: 5px; " >
+                  <i class="far fa-comment-alt"></i>
+                </div>
+
+              </div>
+              <div class="profile-logo">
+
+              </div>
+            
+            </div>
+          </div>
+          <div class="startup-post">
+            <div class="startup-img">
+              <a href="https://microacquire.com/?ref=betalist" target="_blank"><img src="Assets/trending startup/Micro Acquire/946bbff068670475da13da79fc910043.gif" alt=""></a>
+
+            </div>
+            <div class="startup-heading">
+              <p>MicroAcquire</p>
+
+            </div>
+            <div class="startup-para">
+              <p>A free & anonymous startup acquisition marketplace</p>
+
+            </div>
+            <div class="button-container">
+              <div class="button" style="width: 45px; height: 30px;">
+                             
+                <span class="content">
+                                 
+                                  
+                  <span class="text number" style="font-size: 20px;color: red;">1</span>
+                  <i class="icon far fa-heart" aria-hidden="true" style="color: red;font-family: 'Courier New', Courier, monospace;"></i>
+
+              </div>
+              <div class="comment-button">
+                <div class="comment-btn" style="margin-left: 10px;margin-top: 5px; " >
+                  <i class="far fa-comment-alt"></i>
+                </div>
+
+              </div>
+              <div class="profile-logo">
+
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+    <!-- Closable Early Access Banner -->
+    <section>
+      <div class="early-access-banner-closable">
+        <div class="text-part-early-access">
+          <div class="main-text" style="font-size: 24px; font-family: Arial, Helvetica, sans-serif;">
+            <p>🔥 Stay ahead of the curve</p>
+
+          </div>
+          <div class="sub-text" style="font-size: 16px; font-family: Arial, Helvetica, sans-serif;margin-left: 35px;opacity: .5;min-width: 100%;">
+            <p>Receive a daily digest of the newest startups. One-click unsubscribe.</p>
+
+          </div>
+
+        </div>
+
+        <div class="form-part-early-access" style="margin-left: 150px;">
+          <div class="input-part">
+            <input style="width: 300px;height: 39px;" type="text" name="Email" id="Email" placeholder="Your email address">
+
+          </div>
+          <div class="early-access-button" style="margin-left: 05px;">
+            <button style="height: 39.25px; width: 165.95px;">GET EARLY ACCESS</button>
+
+          </div>
+          <span id="close" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;">x</span>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- All Starttups -->
+
+    <section>
+        <div class="all-startups-main-division">
+          <div class="all-heading" style="margin-left: 200px;font-size: 35px;font-family: Arial, Helvetica, sans-serif;font-weight: bold;">
+            <p>All Startups</p>
+          </div>
+
+          <div class="trending-division">
+            <div class="startup-post">
+              <div class="startup-img">
+                <a href="https://nftpricefloor.com/?ref=betalist" target="_blank"><img src="Assets/trending startup/NFT Price Floor/ead530637acd204260f86e46800e1c9b.png" alt=""></a>
+              </div>
+              <div class="startup-heading">
+                <p>NFT Price Floor</p>
+  
+              </div>
+              <div class="startup-para">
+                <p>Track top NFT price floor, chart, sales & volume</p>
+  
+              </div>
+              <div class="button-container">
+                <div class="button" style="width: 45px; height: 30px; ">
+                               
+                  <span class="content">
+                                   
+                                    
+                    <span class="text number" style="font-size: 20px;color: red;">5</span>
+                    <i class="icon far fa-heart" aria-hidden="true" style="color: red;font-family: 'Courier New', Courier, monospace;"></i>
+  
+                </div>
+                <div class="comment-button">
+                  <div class="comment-btn" style="margin-left: 10px;margin-top: 5px; " >
+                    <i class="far fa-comment-alt"></i>
+                  </div>
+  
+                </div>
+                <div class="profile-logo">
+  
+                </div>
+              
+              </div>
+            </div>
+            <div class="startup-post">
+              <div class="startup-img">
+                <a href="https://rundown.so/?ref=betalist" target="_blank"><img src="Assets/all startups/Rundown/4d43784817ef03b0ce171c91838f1d06.png" alt=""></a>
+              </div>
+              <div class="startup-heading">
+                <p>Rundown</p>
+  
+              </div>
+              <div class="startup-para">
+                <p>Weekly email reports for your SaaS customers</p>
+  
+              </div>
+              <div class="button-container">
+                <div class="button" style="width: 45px; height: 30px; ">
+                               
+                  <span class="content">
+                                   
+                                    
+                    <span class="text number" style="font-size: 20px;color: red;">5</span>
+                    <i class="icon far fa-heart" aria-hidden="true" style="color: red;font-family: 'Courier New', Courier, monospace;"></i>
+  
+                </div>
+                <div class="comment-button">
+                  <div class="comment-btn" style="margin-left: 10px;margin-top: 5px; " >
+                    <i class="far fa-comment-alt"></i>
+                  </div>
+  
+                </div>
+                <div class="profile-logo">
+  
+                </div>
+              
+              </div>
+            </div>
+            <div class="startup-post">
+              <div class="startup-img">
+                <a href="https://www.getpegy.com/?ref=betalist" target="_blank"><img src="Assets/all startups/Pegy/92a7b760b920ba762aeefb31762b7d0d.png" alt=""></a>
+              </div>
+              <div class="startup-heading">
+                <p>Pegy</p>
+  
+              </div>
+              <div class="startup-para">
+                <p>Trigger automated workflows from your browser</p>
+  
+              </div>
+              <div class="button-container">
+                <div class="button" style="width: 45px; height: 30px; ">
+                               
+                  <span class="content">
+                                   
+                                    
+                    <span class="text number" style="font-size: 20px;color: red;">5</span>
+                    <i class="icon far fa-heart" aria-hidden="true" style="color: red;font-family: 'Courier New', Courier, monospace;"></i>
+  
+                </div>
+                <div class="comment-button">
+                  <div class="comment-btn" style="margin-left: 10px;margin-top: 5px; " >
+                    <i class="far fa-comment-alt"></i>
+                  </div>
+  
+                </div>
+                <div class="profile-logo">
+  
+                </div>
+              
+              </div>
+            </div>
+            <div class="startup-post">
+              <div class="startup-img">
+                <img src="Assets/all startups/Windframe/388e56eb9535941e50ab34e047710a02.gif" alt="">
+              </div>
+              <div class="startup-heading">
+                <p>Windframe</p>
+  
+              </div>
+              <div class="startup-para">
+                <p>Visually create webpages and prototypes in minutes using tailwind css</p>
+  
+              </div>
+              <div class="button-container">
+                <div class="button" style="width: 45px; height: 30px; ">
+                               
+                  <span class="content">
+                                   
+                                    
+                    <span class="text number" style="font-size: 20px;color: red;">5</span>
+                    <i class="icon far fa-heart" aria-hidden="true" style="color: red;font-family: 'Courier New', Courier, monospace;"></i>
+  
+                </div>
+                <div class="comment-button">
+                  <div class="comment-btn" style="margin-left: 10px;margin-top: 5px; " >
+                    <i class="far fa-comment-alt"></i>
+                  </div>
+  
+                </div>
+                <div class="profile-logo">
+  
+                </div>
+              
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+    </section>
+
+    </section>
+
+    <script src="/script.js"></script>
+    
+  </body>
+</html>

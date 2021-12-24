@@ -1,0 +1,103 @@
+.first-part{
+    padding-top: 6%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 2%;
+    margin-top: 30px;
+    
+}
+.fist-heading{
+    align-content: center;
+    color: black;
+    font-size: 57px;
+    text-align: center;
+    font-weight: 600;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+
+}
+.second-heading{
+    align-items: flex-start;
+    text-align: center;
+    color: #CACFD2;
+    text-decoration-color: transparent;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+
+}
+
+.para{
+    padding-bottom: 5%;
+}
+.para-class{
+    padding-top: 5%;
+}
+
+.para-head{
+    text-decoration: none;
+    color: #4a4d4d;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 8%;
+}
+
+.para-list{
+    line-height: 24px;
+    list-style: none;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif ;
+    color: #4a4d4d;
+    font-size: 15px;
+    
+}
+.para-first{
+    float: left;
+    width: 50%;
+
+}
+.para-second{
+
+    float: left;
+    width: 50%;
+    padding-bottom: 15%;
+}
+
+.body-content{
+    padding-left: 4%;
+}
+
+.first-content{
+    float: left;
+    width: 50%;
+    display: flexbox;
+    
+}
+
+.content-p{
+    color: #617676;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif ;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 8%;
+}
+
+h6{
+    color: black;
+    font-size: 18px;
+    font-weight: 550;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif ;
+}
+
+p {
+   
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    color: #4a4d4d;
+    line-height: 24px;
+}
+
+.second-content{
+    
+    float: left;
+    width: 50%;
+
+}
